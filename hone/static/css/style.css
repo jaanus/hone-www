@@ -1,0 +1,1020 @@
+/* FONTS */
+
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500';
+
+
+/* RESET */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike, strong, sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/* BASE */
+
+body {
+	font:20px/1 system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 500;
+	color: #00ACFF;
+}
+
+
+a {
+	opacity: 0.8;
+}
+
+a:hover {
+	opacity: 1.0;
+}
+
+
+h1 {
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 100;
+	font-size: 64px;
+	color: #000000;
+	margin-bottom: -16px;
+}
+
+h3 {
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 500;
+	font-size: 20px;
+	color: #000;
+	opacity: 0.24;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 100;
+	font-size: 32px;
+    line-height: 48px;
+	color: #000000;
+    margin-bottom: 16px;
+}
+
+
+p {
+	line-height: 1.8;
+	margin-bottom: 30px;
+}
+
+p.memory {
+  font-style: italic;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* COMMON TO BUTTONS. SPECIFICS SPREAD IN SECTIONS */
+.main-action, .secondary-action, .tertiary-action, .alarm-action, .bottom-action {
+	border-radius: 4px;
+	z-index: 100;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 500;
+}
+
+
+/* COMMON TO MAIN SECTIONS IN A PAGE */
+
+.header, .core, .learn-menu {
+    padding: 16px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+	position: relative;
+	max-width: 1192px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* #HEADER */
+
+.topframe {
+  width: 100%;
+  height: 88px;
+  border: 0;
+}
+
+.header {
+	text-align: center;
+}
+
+span.header--you {
+  display: inline;
+}
+
+.logo-image {
+	display: inline-block;
+	width: 111px;
+	height: 28px;
+}
+
+.main-action, .secondary-action {
+	padding: 16px 12px;
+	line-height: 0.2;
+	font-size: 14px;
+	height: 32px;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.tertiary-action {
+	padding: 16px 8px;
+	line-height: 0.2;
+	font-size: 14px;
+	height: 32px;
+	margin-left: 0em;
+	margin-right: 0.5em;
+	opacity: 0.4;
+}
+
+.main-action, .secondary-action, .tertiary-action {
+	float: left;
+	width: 150px;
+}
+
+.main-action {
+	background: #9EDA00;
+	border: 1px #9EDA00 solid;
+}
+
+.secondary-action {
+	background: #667984;
+	border: 1px rgba(102,121,132,0.4) solid;
+}
+
+.tertiary-action {
+	width: inherit;
+	background: #fff;
+	border: 0px rgba(102,121,132,0.4) solid;
+	text-align: center;
+    margin-left: 10px;
+}
+
+.main-action a, .secondary-action a {
+  color: #fff;
+}
+
+.tertiary-action a {
+	color: #667984;
+}
+
+.logo, .menu, .other-options {
+	position: absolute;
+	top: 24px;
+}
+
+.logo {
+	left: 10px;
+}
+
+.menu {
+	right: 200px;
+	width: 48%;
+
+}
+
+.other-options {
+	right: 0px;
+}
+
+
+
+/* #HERO */
+
+.hero {
+	margin-top: 80px;
+	margin-bottom: 40px;
+	text-align: center;
+	position: relative;
+}
+
+
+.hero-image {
+	margin-top: 96px;
+	margin-bottom: 48px;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	max-width: 1192px;
+}
+
+
+
+/* #FEATURES */
+
+.features {
+  	padding: 0%;
+    margin-bottom: 0px;
+	width: 90%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.nutshell {
+  text-align: center;
+}
+
+.nutshell small {
+  font-size: 60%;
+}
+
+
+.whats-and-hows, .quotes {
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+    flex-direction: row;
+	-webkit-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    align-content: flex-start;
+    -webkit-align-content: flex-start;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+
+    margin-top: 120px;
+    margin-bottom:40px;
+}
+
+.what, .quote {
+
+	flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+	-webkit-flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    -webkit-flex-basis: 300px;
+
+	background-repeat: no-repeat;
+	text-align: center;
+
+}
+
+.quote {
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 100;
+	font-style: italic;
+	font-size: 16px;
+}
+
+#what-1, #quote-1 {
+	padding-right: 64px;
+}
+
+#what-2, #quote-2 {
+	padding-left: 64px;
+}
+
+.what-title {
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 100;
+	font-size: 32px;
+	color: #667984;
+}
+
+.quote-source, .quote-source a{
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 100;
+	font-size: 16px;
+	color: #667984;
+}
+
+
+
+.play-video {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+	margin-bottom: 120px;
+}
+
+
+
+.usps {
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+    flex-direction: row;
+	-webkit-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    align-content: flex-start;
+    -webkit-align-content: flex-start;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+
+    margin: 72px 0px;
+}
+
+
+
+.usp {
+    height: 150px;
+	flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 300px;
+	-webkit-flex-grow: 1;
+    -webkit-flex-shrink: 0;
+    -webkit-flex-basis: 300px;
+	padding-left: 50px;
+	padding-right: 16px;
+	margin-bottom: 32px;
+	background-repeat: no-repeat;
+
+}
+
+.usp-title {
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 500;
+	color: #667984;
+}
+
+#usp1 {
+	background-image: url(../images/usp1.png);
+	background-size: 38px auto;
+}
+
+#usp2 {
+	background-image: url(../images/usp2.png);
+	background-size: 32px auto;
+}
+
+#usp3 {
+	background-image: url(../images/usp3.png);
+	background-size: 41px auto;
+}
+
+#usp4 {
+	background-image: url(../images/usp4.png);
+	background-size: 36px auto;
+}
+
+#usp5 {
+	background-image: url(../images/usp5.png);
+	background-size: 42px auto;
+}
+
+#usp6 {
+	background-image: url(../images/usp6.png);
+	background-size: 24px auto;
+}
+
+
+
+
+
+/* #ALARM */
+
+.alarm {
+
+  position: relative;
+
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+    background-color: transparent;
+    flex-direction: row;
+	-webkit-flex-direction: row;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-content: flex-end;
+    -webkit-align-content: flex-end;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+
+    padding-bottom: 48px;
+    z-index: 0;
+}
+
+.alarm-background {
+  position: absolute;
+  background-color: rgba(0,158,235,0.16);
+  display: block;
+  top: 40px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.alarm-intro {
+	flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 700px;
+	-webkit-flex-grow: 0;
+    -webkit-flex-shrink: 1;
+    -webkit-flex-basis: 700px;
+
+	padding-top: 125px;
+	padding-left: 50px;
+	padding-right: 40px;
+}
+
+
+
+.alarm-intro p {
+	margin-top: 30px;
+	padding-left: 50px;
+}
+
+.alarm-intro h1{
+	color: #667984;
+	padding-left: 50px;
+}
+
+
+.alarm-action {
+	background: #009EEB;
+	color: #FFFFFF;
+	padding: 16px 16px;
+	line-height: 1.2;
+	font-size: 16px;
+	height: 48px;
+	max-width: 288px;
+	text-align: center;
+}
+
+#alarm-action-1, #alarm-action-2 {
+	background-repeat: no-repeat;
+	background-position: 0px, 50%;
+	padding-left: 50px;
+
+}
+
+#alarm-action-1 {
+	background-image: url(../images/1.png);
+	background-size: 24px auto;
+}
+
+#alarm-action-2 {
+	background-image: url(../images/2.png);
+	background-size: 26px auto;
+}
+
+.alarm-image-container {
+  overflow-x: hidden;
+}
+
+.alarm-image {
+	width:432px;
+	padding-right: 40px;
+	margin-top: 20px;
+}
+
+
+/* #ACTIONS */
+
+.actions {
+	padding-top: 60px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+.actions p{
+	margin-top: 50px;
+}
+
+.bottom-action {
+	background: #667984;
+	color: #fff;
+	border: 1px rgba(102,121,132,0.4) solid;
+	padding: 16px 16px;
+	line-height: 0.6;
+	font-size: 14px;
+	height: 40px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+}
+
+.email {
+	/* enable custom look in Safari Mobile and maybe others */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	height: 40px;
+	width: 60%;
+	max-width: 248px;
+	background: #FFFFFF;
+    border: 1px rgba(102,121,132,0.4) solid;
+	border-radius: 4px 0px 0px 4px;
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 300;
+	font-size: 14px;
+	padding-left: 8px;
+	margin-right: 0px;
+	padding-right: 0px;
+	vertical-align: middle;
+}
+
+.submit-action {
+	/* enable custom look in Safari Mobile and maybe others */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	height: 40px;
+	width: 50px;
+
+	background: #667984;
+	color: #FFFFFF;
+	border: 1px rgba(102,121,132,0.4) solid;
+	border-radius: 0px 4px 4px 0px;
+	text-transform: uppercase;
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 500;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+
+/* #FOOTER */
+
+.footer {
+	clear:both;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	margin-top: 140px;
+	padding-top: 48px;
+	text-align: center;
+	position: relative;
+	width:40%;
+	max-width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top: 1px solid rgba(119,121,127,0.1);
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 100;
+	font-size:12px;
+}
+
+.footer-links {
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+    flex-direction: row;
+	-webkit-flex-direction: row;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+
+    align-content: center;
+    -webkit-align-content: center;
+
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.footer-link {
+    width: 128px;
+	margin-bottom: 48px;
+
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 500;
+	text-transform: uppercase;
+
+}
+
+
+
+/* LEARN PAGES */
+
+
+/* CORE CONTENT OF LEARN PAGES: SUBMENU, VIDEOS AND ARTICLES */
+
+
+/* ASIDE */
+
+
+/* BOTTOM NAVIGATION IN LEARN PAGES: PREV AND NEXT PAGE */
+
+
+/* #RESPONSIVE*/
+
+@media screen and (max-width: 1230px) {
+  .core, .header {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+}
+
+
+
+/* #TINY SCREENS */
+@media screen and (max-width: 300px) {
+	h1 {
+		font-size: 20px;
+	}
+
+
+	.logo {
+		left: 60px;
+	}
+
+	.logo-image{
+		margin-left: none;
+	}
+
+	.sign-in {
+		position: absolute;
+		top:60px;
+		left:60px;
+		right: none;
+	}
+
+	.menu {
+		width: 100%;
+	}
+
+	.main-action, .secondary-action {
+		min-width: 150px;
+	}
+
+    .alarm-action, .bottom-action {
+		line-height:1em;
+		font-size: 10px;
+	}
+
+	.usp, .what, .quote {
+		max-width: 200px;
+	}
+
+	.actions {
+		width: 100%;
+	}
+
+	.email, .submit-action {
+		border-radius: 4px 4px 4px 4px;
+	}
+
+	.submit-action {
+		margin-top: 10px;
+	}
+}
+
+
+
+/* #SMALL SCREENS */
+
+@media screen and (max-width: 750px) {
+
+  .core, .header {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  span.header--you {
+    display: none;
+  }
+
+
+	#wrapper {
+		padding: 0px;
+	}
+
+	h1 {
+		font-size: 32px;
+        line-height: 40px;
+	}
+
+	h2 {
+		font-size: 20px;
+        line-height: 24px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+
+	.header {
+		margin-bottom: 64px;
+	}
+
+    .topframe {
+        height: 256px;
+    }
+
+
+	.logo {
+		width:100%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0px;
+	}
+
+	.other-options {
+		display: block;
+		top: 88px;
+		left: 0;
+		right: 0;
+		width: 88%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+
+	}
+
+	.menu {
+		top: 160px;
+		left: 0;
+		right: 0;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+
+	}
+
+    .tertiary-action {
+    float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.main-action, .secondary-action {
+		width: 46%;
+	}
+
+	.main-action {
+		margin-right: 0px;
+	}
+
+	.header{
+		padding-bottom: 100px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.hero-image {
+		margin-top: 20px;
+		margin-bottom: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
+		width: 95%;
+		height: auto;
+
+	}
+
+  .hero {
+    overflow-x: hidden;
+  }
+
+	.crop {
+	   margin: 20px -100px 0px -90px;
+	}
+
+	.tagline {
+		padding: 20px;
+	}
+
+	.features {
+	  	padding: 0px;
+	    margin-bottom: 20px;
+	    width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	.nutshell {
+		padding-left: 0px;
+		text-align: center;
+	}
+
+    .whats-and-hows, .quotes {
+
+	    margin-top: 0px;
+	    margin-bottom: 40px;
+
+	   	flex-direction: column;
+		-webkit-flex-direction: column;
+		margin-left:auto;
+		margin-right:auto;
+
+	}
+
+	.what, .quote {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.what {
+		flex-basis: 200px;
+		-webkit-flex-basis: 200px;
+	}
+
+	.quote {
+		flex-basis: 100px;
+		-webkit-flex-basis: 100px;
+	}
+
+
+    #what-1, #quote-1 {
+		padding-right: 0px;
+    }
+
+    #what-2, #quote-2 {
+		padding-left: 0px;
+    }
+
+	.what-title {
+		font-size: 26px;
+	}
+
+    .play-video {
+		margin-top: 88px;
+    }
+
+	.usps {
+		flex-direction: column;
+		-webkit-flex-direction: column;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.usp {
+		background-position: center top;
+		padding-top: 64px;
+		margin-bottom: 32px;
+		text-align: center;
+		flex-basis: 200px;
+		-webkit-flex-basis: 200px;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left:auto;
+		margin-right:auto;
+
+	}
+
+
+
+
+	.alarm {
+		text-align: center;
+	}
+	.alarm-intro {
+		padding: 20px;
+		padding-top: 80px;
+	}
+
+	.alarm-action {
+		max-width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#alarm-action-1, #alarm-action-2 {
+		background-position: center top;
+		padding-left: 0px;
+		padding-top:64px;
+		margin-top: 64px;
+	}
+
+	.alarm p {
+		padding: 0px;
+	}
+
+	.alarm h1{
+		padding: 0px;
+	}
+
+
+	.alarm-image {
+		display:none;
+	}
+
+	.actions {
+		width: 80%;
+	}
+
+
+	.email {
+		width: 80%;
+	}
+
+
+	.footer {
+		width: 90%;
+	}
+
+
+    .submenu {
+	    display: none;
+	}
+
+	.content {
+		width: 96%;
+		margin-left: auto;
+		margin-right: auto;
+        padding-right: 4%;
+	}
+
+	.content ul, .content ol{
+		padding-left: 16px;
+	}
+
+    .videos {
+	   	flex-direction: column;
+		-webkit-flex-direction: column;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.video {
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+    .video-placeholder {
+	   margin-top: 0;
+	   width: 300px;
+    }
+
+}
+
+
+/* #MEDIUM SCREENS */
+
+@media screen and (max-width: 1440px) {
+
+ /* default */
+
+}
+
+
+
+/* #BACKGROUND IMAGES FOR RETINA DISPLAYS. OTHER IMAGES HANDLED BY RETINA.JS */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+        #alarm-action-1 {background-image: url(../images/1@2x.png);}
+        #alarm-action-2 {background-image: url(../images/2@2x.png);}
+        #usp1 {background-image: url(../images/usp1@2x.png);}
+        #usp2 {background-image: url(../images/usp2@2x.png);}
+        #usp3 {background-image: url(../images/usp3@2x.png);}
+        #usp4 {background-image: url(../images/usp4@2x.png);}
+        #usp5 {background-image: url(../images/usp5@2x.png);}
+        #usp6 {background-image: url(../images/usp6@2x.png);}
+
+        .aside a.aside-header {
+          background-image: url('../images/expand@2x.png');
+        }
+
+        .aside.aside-expanded a.aside-header {
+          background-image: url('../images/collapse@2x.png');
+        }
+
+}

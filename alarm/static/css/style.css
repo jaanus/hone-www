@@ -1,0 +1,311 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,500';
+
+/* RESET */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+
+
+/* BASE */
+
+body {
+	font: 18px/1 system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: #000;
+}
+
+
+a {
+	text-decoration: none;
+	color: #5DB200;
+	font-weight: 400;
+}
+
+
+h1 {
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 100;
+	font-size: 48px;
+	color: #000000;
+}
+
+
+h2 {
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 500;
+	font-size: 18px;
+	color: #000;
+	opacity: 0.24;
+	margin-top: 8px;
+}
+
+
+p {
+	line-height: 1.8;
+	margin-bottom: 30px;
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
+/* #HEADER */
+
+.header {
+	margin-top: 40px;
+	padding-top: 40px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	position: relative;
+}
+
+
+.logo {
+	display: inline-block;
+	width: 82px;
+	height: 80px;
+	margin-bottom: 20px;
+}
+
+
+.hero {
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	position: relative;
+}
+
+
+.hero-image {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* #USPS */
+
+.usps {
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+
+
+.usp {
+	float: left;
+	width: 31%;
+	margin-right:2%;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+
+.usp-title {
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 500;
+}
+
+
+#usp1{
+	/*color: rgba(0,111,255,1);*/
+	color: rgba(0,179,255,1);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,111,255,1)), color-stop(100%, rgba(255,66,255,1)));
+	background: -webkit-linear-gradient(left, rgba(0,111,255,1) 0%, rgba(255,66,255,1) 100%);
+	-webkit-background-clip: text;
+	-ms-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-ms-text-fill-color: transparent;
+}
+
+
+#usp2{
+	color: rgba(0,179,255,1);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,179,255,1)), color-stop(100%, rgba(0,249,0,1)));
+	background: -webkit-linear-gradient(left, rgba(0,179,255,1) 0%, rgba(0,249,0,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+#usp3{
+	color: rgba(0,179,255,1);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,179,255,1)), color-stop(100%, rgba(255,217,0,1)));
+	background: -webkit-linear-gradient(left, rgba(0,179,255,1) 0%, rgba(255,217,0,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+/* #HONED STAMP*/
+
+.honed {
+	clear:both;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	margin-top: 80px;
+	padding-top: 80px;
+	text-align: center;
+	position: relative;
+}
+
+
+.honed-stamp {
+	display: inline-block;
+	width: 41px;
+	height: 45px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+/* #FOOTER*/
+
+.footer {
+	clear:both;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	margin-top: 80px;
+	padding-top: 40px;
+	text-align: center;
+	position: relative;
+	width:40%;
+	max-width: 500px;
+	min-width: 200px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top: 1px solid rgba(119,121,127,0.1);
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 100;
+	font-size:12px;
+}
+
+
+.footer-link {
+	font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Lucida Grande";
+	font-weight: 500;
+}
+
+
+
+
+
+/* RESPONSIVE */
+
+/* TINY  SCREENS */
+
+@media screen and (max-width: 475px) {
+
+	.action-button {
+	    width: 100%;
+		min-width: 1px;
+	    font-size: 15px;
+		padding: 8px 8px;
+		display: inline-block;
+		line-height: 3.5;
+	}
+
+}
+
+
+
+
+
+/* SMALL SCREENS */
+
+@media screen and (max-width: 768px) {
+
+	.wrapper {
+		padding:0px;
+	}
+
+
+	.header {
+		margin-bottom: 40px;
+		width:100%
+	}
+
+
+	.logo {
+		display: inline-block;
+		width: 10%;
+		height: 10%;
+	}
+
+
+	.hero-image {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.usps {
+		width: 100%;
+		margin-left: auto;
+		margin-right:auto;
+		margin-top: 50px;
+		margin-bottom: 0px;
+		padding: 0px;
+	}
+
+
+	.usp {
+		clear: both;
+		float: none;
+		width:100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+
+	.honed, .footer {
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		margin-top: 40px;
+		padding-top: 40px;
+		width: 100%;
+	}
+
+}
+
+
+
+
+
+/* MEDIUM SCREENS */
+@media screen and (max-width: 992px) {
+
+	/*default*/
+
+}
+
+
+
+
+
+/* LARGE SCREENS */
+@media screen and (max-width: 1440px) {
+
+	/*not available*/
+
+}
